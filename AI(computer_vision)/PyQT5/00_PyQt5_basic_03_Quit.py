@@ -8,13 +8,13 @@ app = QApplication(sys.argv)
 
 window = QMainWindow()
 window.setWindowTitle('Hello, World! - mainwindow')
-window.setWindowIcon(QIcon('web.png'))
+window.setWindowIcon(QIcon('web.png'))   
 
 
-btn = QPushButton('Quit', window)
+btn = QPushButton('Quit', window) 
 btn.move(50, 50)
 btn.resize(btn.sizeHint())
-btn.clicked.connect(QCoreApplication.instance().quit)
+btn.clicked.connect(QCoreApplication.instance().quit)           #btn.clicked : signal  => 클릭(signal이 발생)하면 QCoreApplication 함수를 connect 해라.
 
 
 window.show()
