@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-## Ex 8-2. ���� �׸��� (drawLine).
+## Ex 8-2. ���� �׸��� (drawLine).
 ## https://wikidocs.net/74077
 
 import sys
@@ -18,15 +18,15 @@ class MyApp(QWidget):
         self.setWindowTitle('drawLine')
         self.show()
 
-    def paintEvent(self, e):
+    def paintEvent(self, e):    #paintEvent : paint 해주는 함수
         qp = QPainter()
         qp.begin(self)
         self.draw_line(qp)
         qp.end()
 
     def draw_line(self, qp):
-        qp.setPen(QPen(Qt.blue, 8))
-        qp.drawLine(30, 230, 200, 50)
+        qp.setPen(QPen(Qt.blue, 8))     # 선의 컬러 & 굵기
+        qp.drawLine(30, 230, 200, 50)   #시작점 & 끝점
         qp.setPen(QPen(Qt.green, 12))
         qp.drawLine(140, 60, 320, 280)
         qp.setPen(QPen(Qt.red, 16))

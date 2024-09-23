@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-## Ex 8-3. Á÷»ç°¢Çü ±×¸®±â (drawRect).
+## Ex 8-3. ï¿½ï¿½ï¿½ç°¢ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ (drawRect).
 ## https://wikidocs.net/74078
 
 import sys
@@ -25,7 +25,7 @@ class MyApp(QWidget):
         self.draw_rect(qp)
         qp.end()
 
-    def draw_rect(self, qp):
+    def draw_rect(self, qp):        #ì‚¬ê°í˜• ê·¸ë¦¬ê¸°
         qp.setBrush(QColor(180, 100, 160))
         qp.setPen(QPen(QColor(60, 60, 60), 3))
         qp.drawRect(20, 20, 100, 100)

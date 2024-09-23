@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-## Ex 8-4. µÕ±Ù Á÷»ç°¢Çü ±×¸®±â (drawRoundedRect).
+## Ex 8-4. ï¿½Õ±ï¿½ ï¿½ï¿½ï¿½ç°¢ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ (drawRoundedRect).
 ## https://codetorial.net/pyqt5/paint/drawing_roundedrect.html
 
 import sys
@@ -15,11 +15,11 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setGeometry(300, 300, 400, 300)
-        self.setWindowTitle('drawRoundedRect')
-        self.show()
+        self.setGeometry(300, 300, 400, 300)        #ìœ„ì¹˜ ì„¤ì •
+        self.setWindowTitle('drawRoundedRect')      #íƒ€ì´í‹€
+        self.show()                                 #í™”ë©´ì— ì¶œë ¥
 
-    def paintEvent(self, e):
+    def paintEvent(self, e):                        #paint event í˜¸ì¶œ
         qp = QPainter()
         qp.begin(self)
         self.draw_roundedrect(qp)

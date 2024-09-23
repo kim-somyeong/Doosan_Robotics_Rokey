@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-## Ex 7-1. ¿¬°áÇÏ±â.
+## Ex 7-1. ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½.
 
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLCDNumber, QDial, QVBoxLayout
@@ -15,12 +15,12 @@ class MyApp(QWidget):
         lcd = QLCDNumber(self)
         dial = QDial(self)
 
-        vbox = QVBoxLayout()
+        vbox = QVBoxLayout()    #vboxlayout -> 2ê°œì˜ widget ì—°ê²°
         vbox.addWidget(lcd)
         vbox.addWidget(dial)
         self.setLayout(vbox)
 
-        dial.valueChanged.connect(lcd.display)
+        dial.valueChanged.connect(lcd.display)      #lcd.display í•¨ìˆ˜ 
 
         self.setWindowTitle('Signal and Slot')
         self.setGeometry(300, 300, 200, 200)

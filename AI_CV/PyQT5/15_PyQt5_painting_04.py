@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-## Ex 8-5. �ٰ��� �׸��� (drawPolygon).
+## Ex 8-5. �ٰ��� �׸��� (drawPolygon).
 ## https://codetorial.net/pyqt5/paint/drawing_polygon.html
 
 import sys
@@ -25,16 +25,16 @@ class MyApp(QWidget):
         self.draw_polygon(qp)
         qp.end()
 
-    def draw_polygon(self, qp):
-        points1 = [
+    def draw_polygon(self, qp):         #draw_polygon 함수 호출
+        points1 = [                     #좌표값
             QPoint(20, 20),
             QPoint(200, 80),
             QPoint(150, 135),
             QPoint(50, 115)
         ]
-        polygon1 = QPolygon(points1)
-        qp.setPen(QPen(Qt.black, 3))
-        qp.drawPolygon(polygon1)
+        polygon1 = QPolygon(points1)    #포인트들로 polygon draw
+        qp.setPen(QPen(Qt.black, 3))    #색깔 & 굵기
+        qp.drawPolygon(polygon1)        #draw
 
         points2 = [
             QPoint(220, 30),
@@ -42,8 +42,8 @@ class MyApp(QWidget):
             QPoint(250, 135)
         ]
         polygon2 = QPolygon(points2)
-        qp.setPen(QPen(Qt.red, 5, Qt.DashLine))
-        qp.setBrush(QBrush(Qt.yellow))
+        qp.setPen(QPen(Qt.red, 5, Qt.DashLine)) #바깥 선 색깔
+        qp.setBrush(QBrush(Qt.yellow))          #안에 채우는 색깔 
         qp.drawPolygon(polygon2)
 
         points3 = [

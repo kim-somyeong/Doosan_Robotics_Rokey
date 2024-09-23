@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-## Ex 8-1-1. Á¡ ±×¸®±â1 (drawPoint).
+## Ex 8-1-1. ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½1 (drawPoint).
 ## https://wikidocs.net/74076
 
 import sys

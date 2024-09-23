@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-## Ex 7-3. ÀÌº¥Æ® ÇÚµé·¯ Àç±¸¼ºÇÏ±â.
+## Ex 7-3. ï¿½Ìºï¿½Æ® ï¿½Úµé·¯ ï¿½ç±¸ï¿½ï¿½ï¿½Ï±ï¿½.
 ## https://wikidocs.net/23755
-## ESC Á¾·á
-## F ÃÖ´ëÈ­
-## N ÃÖ¼ÒÈ­
+## ESC ï¿½ï¿½ï¿½ï¿½
+## F ï¿½Ö´ï¿½È­
+## N ï¿½Ö¼ï¿½È­
 
 import sys
 from PyQt5.QtCore import Qt
@@ -21,8 +21,8 @@ class MyApp(QWidget):
         self.setGeometry(300, 300, 300, 200)
         self.show()
 
-    def keyPressEvent(self, e):
-        if e.key() == Qt.Key_Escape:
+    def keyPressEvent(self, e):         #ë‚´ìž¥ í•¨ìˆ˜
+        if e.key() == Qt.Key_Escape:    #key_escape : event 
             self.close()
         elif e.key() == Qt.Key_F:
             self.showFullScreen()
