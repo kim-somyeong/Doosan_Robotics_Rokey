@@ -11,7 +11,7 @@ QToolTip.setFont(QFont('SansSerif', 10))
 window = QMainWindow()
 window.setWindowTitle('Hello, World! - mainwindow')
 window.setWindowIcon(QIcon('web.png'))
-window.statusBar().showMessage('Ready')
+window.statusBar().showMessage('Ready')                 #statusBar
 
 btn = QPushButton('Quit', window)
 btn.setToolTip('This is a <b>QPushButton</b> widget')

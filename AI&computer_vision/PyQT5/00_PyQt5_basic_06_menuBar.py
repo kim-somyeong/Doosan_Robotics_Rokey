@@ -13,16 +13,17 @@ window.setWindowTitle('Hello, World! - mainwindow')
 window.setWindowIcon(QIcon('web.png'))
 window.statusBar().showMessage('Ready')
 
+#각각의 기능 추가
 exitAction = QAction(QIcon('exit.png'), 'Exit', window)
 exitAction.setShortcut('Ctrl+Q')
 exitAction.setStatusTip('Exit application')
-exitAction.triggered.connect(qApp.quit)
+exitAction.triggered.connect(qApp.quit)     #triggered : signal, quit : slot  => signal, slot connect
 
 window.statusBar()
 
 menubar = window.menuBar()
 menubar.setNativeMenuBar(False)
-filemenu = menubar.addMenu('&File')
+filemenu = menubar.addMenu('&File')         #filemenu에 추가        #addmenu를 통해 instance 생성
 filemenu.addAction(exitAction)
 
 
