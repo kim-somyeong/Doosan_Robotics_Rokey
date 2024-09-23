@@ -86,7 +86,7 @@ btn = QPushButton('Quit', window)
 btn.setToolTip('This is a <b>QPushButton</b> widget')
 btn.move(50, 50)
 btn.resize(btn.sizeHint())
-btn.clicked.connect(QCoreApplication.instance().quit)
+btn.clicked.connect(QCoreApplication.instance().quit)       #btn.clicked : signal(event), QCoreApplication.instance().quit : slot
 
 vbox.addWidget(btn)                ####
 

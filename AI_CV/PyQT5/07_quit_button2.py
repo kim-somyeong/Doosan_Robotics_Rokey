@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout ,QMessageBox
 
-class MyWindow(QWidget):
+class MyWindow(QWidget):        #화면 구성 및 연결 class => QWidget 상속 받음       #2개의 signal, 2개의 slot
     def __init__(self):
         super().__init__()
         self.initUI()
@@ -13,7 +13,7 @@ class MyWindow(QWidget):
         # 첫 번째 버튼 생성
         btn1 = QPushButton('Button 1', self)
         btn1.clicked.connect(lambda: self.buttonClicked(1))  # 버튼 클릭 시 이벤트 핸들러 연결
-        layout.addWidget(btn1)  # 레이아웃에 버튼 추가
+        layout.addWidget(btn1)  # 레이아웃에 버튼 추가  #QVBox에 연결
 
         # 두 번째 버튼 생성 - exit
         btn2 = QPushButton('exit', self)

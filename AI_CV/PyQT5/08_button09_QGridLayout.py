@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QGridLayout
 
 class MyWindow(QWidget):
-    def __init__(self):
+    def __init__(self):         #self: widget
         super().__init__()
         self.initUI()
 

@@ -21,7 +21,7 @@ class MyWindow(QWidget):
         layout.addWidget(btn2)  # 레이아웃에 버튼 추가
         self.setLayout(layout)  # 레이아웃 설정
 
-    def buttonClicked(self, index):
+    def buttonClicked(self, index):         #같은 함수(slot) 공유 
         print('Button', index, 'Clicked!')
 
 if __name__ == '__main__':

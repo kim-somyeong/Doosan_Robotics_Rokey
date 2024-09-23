@@ -1,10 +1,10 @@
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushButton
 
 app = QApplication([])
-window = QWidget()
+window = QWidget()              #widget 생성
 layout = QVBoxLayout()
 
-# Widgets
+# Widgets       #2개 widget 생성
 label = QLabel('Hello, PyQt5!')
 button = QPushButton('Click Me')
 
@@ -14,4 +14,4 @@ layout.addWidget(button)
 
 window.setLayout(layout)
 window.show()
-app.exec_()
+app.exec_()     #event loop

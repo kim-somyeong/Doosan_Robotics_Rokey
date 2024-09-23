@@ -3,8 +3,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton
 
 
-class MyWindow(QWidget):
-
+class MyWindow(QWidget):        #QMainWindow
     def __init__(self):
         super().__init__()
         self.initUI()
@@ -30,10 +29,7 @@ class MyWindow(QWidget):
 
 if __name__ == '__main__':
 
-    app = QApplication(sys.argv)
-
+    app = QApplication(sys.argv)            #QT Application
     window = MyWindow()
-
     window.show()
-
     sys.exit(app.exec_())
