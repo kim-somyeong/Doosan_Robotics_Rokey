@@ -22,9 +22,9 @@ class MyJoystick(QWidget):
 		self.__maxDistance * 2
 		).translated(self._center())
 		print(bounds)     ##### add for debug
-		painter.drawEllipse(bounds)
+		painter.drawEllipse(bounds)		#경계선
 		painter.setBrush(Qt.black)
-		painter.drawEllipse(self._centerEllipse())
+		painter.drawEllipse(self._centerEllipse())	#손잡이 center
 
 	def _centerEllipse(self): # 조이스틱 손잡이 영역
 		if self.grabCenter:

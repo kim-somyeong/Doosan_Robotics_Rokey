@@ -23,12 +23,12 @@ class MyWindow(QWidget):
 
         btn = QPushButton('Click Me!', self)
 
-        btn.setGeometry(100, 50, 100, 30)  # 버튼 위치와 크기 설정
+        btn.setGeometry(100, 50, 100, 30)  # 버튼 위치와 크기 설정  (x, y, 가로, 세로)
 
 
         # 버튼 클릭 시 이벤트 핸들러 연결
 
-        btn.clicked.connect(self.buttonClicked)
+        btn.clicked.connect(self.buttonClicked)     #slot : btn.clicked 시 self.buttonClicked 함수 호출
 
 
 

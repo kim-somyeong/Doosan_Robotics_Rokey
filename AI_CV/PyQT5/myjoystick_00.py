@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QWidget
 class MyJoystick(QWidget):
 	def __init__(self, parent=None): # 조이스틱 초기화 함수
 		super(MyJoystick, self).__init__(parent)
-		self.setMinimumSize(200, 200)
+		self.setMinimumSize(200, 200)			# window 화면의 최소 크기
 		#self.setMinimumSize(400, 400)
 		#self.setMinimumSize(10, 10)
 

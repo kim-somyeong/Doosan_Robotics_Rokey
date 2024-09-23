@@ -35,10 +35,11 @@ class MyJoystick(QWidget):
 	def _center(self): # 조이스틱 중심
 		return QPointF(self.width()/2, self.height()/2)
 
-	def mousePressEvent(self, ev): # 조이스틱 손잡이 잡는 함수
-		self.grabCenter = self._centerEllipse().contains(ev.pos())
+	def mousePressEvent(self, ev): # 조이스틱 손잡이 잡는 함수				#mouse click event	#
+		self.grabCenter = self._centerEllipse().contains(ev.pos())		#마우스 값의 event position : grabCenter
 		print(self.grabCenter, ev.pos())     ##### add for debug
-		return super().mousePressEvent(ev)
+		return super().mousePressEvent(ev)		#default (마우스 이벤트를 직접 호출하는 곳이 없다)로 처리	#부모꺼의 mouse event도 처리해줘
+		#QWidget = super().mousePressEvent -> 부모꺼도 실행해줘라.
 
 from PyQt5.QtWidgets import  QApplication
 import sys

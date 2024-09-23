@@ -41,6 +41,7 @@ class MyJoystick(QWidget):
 			limitLine.setLength(self.__maxDistance)
 		return limitLine.p2()
 
+	#mouse event가 3개 
 	def mousePressEvent(self, ev): # 조이스틱 손잡이 잡는 함수
 		self.grabCenter = self._centerEllipse().contains(ev.pos())
 		return super().mousePressEvent(ev)
@@ -52,9 +53,9 @@ class MyJoystick(QWidget):
 
 	def mouseMoveEvent(self, event): # 조이스틱 손잡이 움직이는 함수
 		if self.grabCenter:
-			self.movingOffset = self._boundJoystick(event.pos())
-			print(event.pos(), self.movingOffset)
-			self.update()
+			self.movingOffset = self._boundJoystick(event.pos())		#boundJoystick function
+			print(event.pos(), self.movingOffset)		#movingOffset : moving position
+			self.update()		#부모한테서 해당된 update를 받는다.
 
 from PyQt5.QtWidgets import QApplication
 import sys

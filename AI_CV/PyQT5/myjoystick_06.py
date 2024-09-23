@@ -76,7 +76,7 @@ class MyJoystick(QWidget):
 
 from PyQt5.QtWidgets import QApplication
 import sys
-def cbJoyPos(joystickPosition) :
+def cbJoyPos(joystickPosition) :	#cbJoyPos : callback function
 	print(joystickPosition)
 
 

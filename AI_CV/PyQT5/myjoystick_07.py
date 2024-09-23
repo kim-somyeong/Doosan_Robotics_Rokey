@@ -13,9 +13,10 @@ class MyJoystick(QWidget):
 		self.grabCenter = False
 		self.__maxDistance = 50
 
-		self.timer = QTimer(self)
-		self.timer.setInterval(10)
-		self.timer.timeout.connect(self.timeout)
+		#timer setting
+		self.timer = QTimer(self)		#event마다 출력이 아닌 일정한 시간마다 출력되도록 
+		self.timer.setInterval(10)		#10ms : 1초에 10번 발생하도록
+		self.timer.timeout.connect(self.timeout)	#timer.timeout을 timeout이라는 method에 connect
 		self.timer.start()
 
 		self.cbJoyPos = cbJoyPos
@@ -81,7 +82,7 @@ class MyJoystick(QWidget):
 		sender = self.sender()
 		if id(sender) == id(self.timer):
 			if self.cbJoyPos != None :
-				self.cbJoyPos(self.joystickPosition())
+				self.cbJoyPos(self.joystickPosition())	#joyposition을 통해 cbJoyPos함수를 호출
 
 from PyQt5.QtWidgets import QApplication
 import sys

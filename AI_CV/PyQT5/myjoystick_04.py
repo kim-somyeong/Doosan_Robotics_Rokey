@@ -50,7 +50,7 @@ class MyJoystick(QWidget):
 	def mouseReleaseEvent(self, event): # 조이스틱 손잡이 놓는 함수
 		self.grabCenter = False
 		print(event)     ##### add for debug
-		self.movingOffset = QPointF(0, 0)
+		self.movingOffset = QPointF(0, 0)	#손잡이를 놓으면 제자리로 가도록 QPointF(0, 0)
 		self.update()
 
 from PyQt5.QtWidgets import QApplication
