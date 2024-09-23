@@ -21,7 +21,7 @@ class MyApp(QWidget):
         cb.addItem('Option4')
         cb.move(50, 50)
 
-        cb.activated[str].connect(self.onActivated)
+        cb.activated[str].connect(self.onActivated)     #signal - slot connect / cb.activated[str] : signal(event) / self.onActivated : 함수 (slot)
 
         self.setWindowTitle('QComboBox')
         self.setGeometry(300, 300, 300, 200)

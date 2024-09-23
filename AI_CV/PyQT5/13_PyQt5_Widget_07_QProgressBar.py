@@ -12,14 +12,14 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.pbar = QProgressBar(self)
+        self.pbar = QProgressBar(self)              #timer에서 동작됨
         self.pbar.setGeometry(30, 40, 200, 25)
 
-        self.btn = QPushButton('Start', self)
+        self.btn = QPushButton('Start', self)       #event 발생
         self.btn.move(40, 80)
-        self.btn.clicked.connect(self.doAction)
+        self.btn.clicked.connect(self.doAction)     #btn.clicked이 발생하면 isActive()로 간다
 
-        self.timer = QBasicTimer()
+        self.timer = QBasicTimer()                  #basic timer setting / 화면이 없음 
         self.step = 0
 
         self.setWindowTitle('QProgressBar')
@@ -38,9 +38,9 @@ class MyApp(QWidget):
     def doAction(self):
         if self.timer.isActive():
             self.timer.stop()
-            self.btn.setText('Start')
+            self.btn.setText('Start')       #timer를 동작시켜라.
         else:
-            self.timer.start(100, self)
+            self.timer.start(100, self)     #100ms마다 한번씩 반복해서 호출 
             self.btn.setText('Stop')
 
 

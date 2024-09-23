@@ -20,7 +20,7 @@ class MyApp(QWidget):
         self.tb.setOpenExternalLinks(True)
 
         self.clear_btn = QPushButton('Clear')
-        self.clear_btn.pressed.connect(self.clear_text)
+        self.clear_btn.pressed.connect(self.clear_text)     #botton 눌러지면 self.clear_text
 
         vbox = QVBoxLayout()
         vbox.addWidget(self.le, 0)

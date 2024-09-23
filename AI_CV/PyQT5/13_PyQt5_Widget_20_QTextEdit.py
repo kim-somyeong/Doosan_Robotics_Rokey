@@ -16,7 +16,7 @@ class MyApp(QWidget):
         self.te.setAcceptRichText(False)
         self.lbl2 = QLabel('The number of words is 0')
 
-        self.te.textChanged.connect(self.text_changed)
+        self.te.textChanged.connect(self.text_changed)  #text가 변하면 text_changed
 
         vbox = QVBoxLayout()
         vbox.addWidget(self.lbl1)
@@ -24,7 +24,7 @@ class MyApp(QWidget):
         vbox.addWidget(self.lbl2)
         vbox.addStretch()
 
-        self.setLayout(vbox)
+        self.setLayout(vbox)        #layout도 상위 layer에 연결되도록
 
         self.setWindowTitle('QTextEdit')
         self.setGeometry(300, 300, 300, 200)

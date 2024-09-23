@@ -12,31 +12,32 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        grid = QGridLayout()
-        grid.addWidget(self.createFirstExclusiveGroup(), 0, 0)
-        grid.addWidget(self.createSecondExclusiveGroup(), 1, 0)
-        grid.addWidget(self.createNonExclusiveGroup(), 0, 1)
-        grid.addWidget(self.createPushButtonGroup(), 1, 1)
+        grid = QGridLayout()    #grid 형태 : 4개의 grid 
+        grid.addWidget(self.createFirstExclusiveGroup(), 0, 0)  #위에서 왼쪽
+        grid.addWidget(self.createSecondExclusiveGroup(), 1, 0) #아래에서 왼쪽
+        grid.addWidget(self.createNonExclusiveGroup(), 0, 1)    #위에서 오른쪽
+        grid.addWidget(self.createPushButtonGroup(), 1, 1)      #아래에서 오른쪽
 
-        self.setLayout(grid)
+        self.setLayout(grid)    #self : grid
 
         self.setWindowTitle('Box Layout')
         self.setGeometry(300, 300, 480, 320)
         self.show()
 
-    def createFirstExclusiveGroup(self):
+    def createFirstExclusiveGroup(self):    #함수로 method 처리
         groupbox = QGroupBox('Exclusive Radio Buttons')
-
+        
+        #widget이 4개
         radio1 = QRadioButton('Radio1')
         radio2 = QRadioButton('Radio2')
         radio3 = QRadioButton('Radio3')
         radio1.setChecked(True)
 
         vbox = QVBoxLayout()
-        vbox.addWidget(radio1)
+        vbox.addWidget(radio1)  #widget을 vbox에 넣어준다
         vbox.addWidget(radio2)
         vbox.addWidget(radio3)
-        groupbox.setLayout(vbox)
+        groupbox.setLayout(vbox)            #그룹별로 layout 존재   #그룹 vbox는 return 
 
         return groupbox
 
@@ -52,7 +53,7 @@ class MyApp(QWidget):
         checkbox = QCheckBox('Independent Checkbox')
         checkbox.setChecked(True)
 
-        vbox = QVBoxLayout()
+        vbox = QVBoxLayout()        #각각 만든 widget을 QVBoxLayout에 add
         vbox.addWidget(radio1)
         vbox.addWidget(radio2)
         vbox.addWidget(radio3)

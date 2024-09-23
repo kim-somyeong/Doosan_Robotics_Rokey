@@ -27,7 +27,7 @@ class MyApp(QWidget):
         self.setLayout(vbox)
 
         self.setWindowTitle('QCalendarWidget')
-        self.setGeometry(300, 300, 400, 300)
+        self.setGeometry(300, 300, 400, 300)        #300, 300 위치 만큼 떨어틀인 곳에서 400, 300 크기의 창을 생성
         self.show()
 
     def showDate(self, date):

@@ -11,15 +11,15 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.lbl1 = QLabel('QSpinBox')
+        self.lbl1 = QLabel('QSpinBox')  #label 1
         self.spinbox = QSpinBox()
         self.spinbox.setMinimum(-10)
         self.spinbox.setMaximum(30)
         # self.spinbox.setRange(-10, 30)
         self.spinbox.setSingleStep(2)
-        self.lbl2 = QLabel('0')
+        self.lbl2 = QLabel('0')         #label 2
 
-        self.spinbox.valueChanged.connect(self.value_changed)
+        self.spinbox.valueChanged.connect(self.value_changed)       #spin box value change -> value_change
 
         vbox = QVBoxLayout()
         vbox.addWidget(self.lbl1)

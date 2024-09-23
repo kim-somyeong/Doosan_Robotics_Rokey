@@ -16,7 +16,7 @@ class MyApp(QWidget):
         pixmap = QPixmap('landscape.jpg')
 
         lbl_img = QLabel()
-        lbl_img.setPixmap(pixmap)
+        lbl_img.setPixmap(pixmap)   #pixmap으로 img 호출
         lbl_size = QLabel('Width: '+str(pixmap.width())+', Height: '+str(pixmap.height()))
         lbl_size.setAlignment(Qt.AlignCenter)
 

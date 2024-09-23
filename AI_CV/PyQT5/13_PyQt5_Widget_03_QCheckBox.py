@@ -15,13 +15,13 @@ class MyApp(QWidget):
         cb = QCheckBox('Show title', self)
         cb.move(20, 20)
         cb.toggle()
-        cb.stateChanged.connect(self.changeTitle)
+        cb.stateChanged.connect(self.changeTitle)       #stateChanged(signal)이면 self.changeTitle (slot) 시작
 
         self.setWindowTitle('QCheckBox')
         self.setGeometry(300, 300, 300, 200)
         self.show()
 
-    def changeTitle(self, state):
+    def changeTitle(self, state):               #slot
         if state == Qt.Checked:
             self.setWindowTitle('QCheckBox')
         else:

@@ -19,7 +19,7 @@ class MyApp(QWidget):
         self.dspinbox.setDecimals(1)
         self.lbl2 = QLabel('$ 0.0')
 
-        self.dspinbox.valueChanged.connect(self.value_changed)
+        self.dspinbox.valueChanged.connect(self.value_changed)      #spin box가 바뀔 때마다 value_change로 
 
         vbox = QVBoxLayout()
         vbox.addWidget(self.lbl1)

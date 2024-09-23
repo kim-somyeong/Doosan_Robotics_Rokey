@@ -11,11 +11,11 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        rbtn1 = QRadioButton('First Button', self)
+        rbtn1 = QRadioButton('First Button', self)  #QRadioButton : self에 연결
         rbtn1.move(50, 50)
         rbtn1.setChecked(True)
 
-        rbtn2 = QRadioButton(self)
+        rbtn2 = QRadioButton(self)      #QWidget 상속
         rbtn2.move(50, 70)
         rbtn2.setText('Second Button')
 
@@ -25,6 +25,6 @@ class MyApp(QWidget):
 
 
 if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    ex = MyApp()
+    app = QApplication(sys.argv)        #QApplication
+    ex = MyApp()                        #화면 구성
     sys.exit(app.exec_())

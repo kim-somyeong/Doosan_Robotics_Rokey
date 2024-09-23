@@ -21,10 +21,10 @@ class MyApp(QWidget):
         self.dial.setRange(0, 50)
 
         btn = QPushButton('Default', self)
-        btn.move(35, 160)
+        btn.move(35, 160)                   #절대 위치 
 
-        self.slider.valueChanged.connect(self.dial.setValue)
-        self.dial.valueChanged.connect(self.slider.setValue)
+        self.slider.valueChanged.connect(self.dial.setValue)    #slider value가 change 되어도 dial에 setValue가 되도록 한다
+        self.dial.valueChanged.connect(self.slider.setValue)    #같은 값들이 연동되어 connect되도록 하였다
         btn.clicked.connect(self.button_clicked)
 
         self.setWindowTitle('QSlider and QDial')

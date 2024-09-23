@@ -11,10 +11,10 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        tab1 = QWidget()
+        tab1 = QWidget()            #widget 생성
         tab2 = QWidget()
 
-        tabs = QTabWidget()
+        tabs = QTabWidget()         #widget 자체를 tabs에 add
         tabs.addTab(tab1, 'Tab1')
         tabs.addTab(tab2, 'Tab2')
 

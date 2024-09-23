@@ -16,13 +16,13 @@ class MyApp(QWidget):
 
         qle = QLineEdit(self)
         qle.move(60, 100)
-        qle.textChanged[str].connect(self.onChanged)
+        qle.textChanged[str].connect(self.onChanged)    #onChanged method 호출
 
         self.setWindowTitle('QLineEdit')
         self.setGeometry(300, 300, 300, 200)
         self.show()
 
-    def onChanged(self, text):
+    def onChanged(self, text):                          #method 
         self.lbl.setText(text)
         self.lbl.adjustSize()
 

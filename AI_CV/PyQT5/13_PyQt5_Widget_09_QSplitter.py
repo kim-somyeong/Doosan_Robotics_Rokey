@@ -12,18 +12,18 @@ class MyApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        hbox = QHBoxLayout()
+        hbox = QHBoxLayout()    #HBoxLayout
 
-        top = QFrame()
+        top = QFrame()          #top frame
         top.setFrameShape(QFrame.Box)
 
-        midleft = QFrame()
+        midleft = QFrame()      #midleft frame
         midleft.setFrameShape(QFrame.StyledPanel)
 
-        midright = QFrame()
+        midright = QFrame()     #midright frame
         midright.setFrameShape(QFrame.Panel)
 
-        bottom = QFrame()
+        bottom = QFrame()       #bottom frame
         bottom.setFrameShape(QFrame.WinPanel)
         bottom.setFrameShadow(QFrame.Sunken)
 
