@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+import sys
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton
+from PyQt5.QtGui import QIcon
+from PyQt5.QtCore import QCoreApplication
+
+app = QApplication(sys.argv)
+
+window = QMainWindow()
+window.setWindowTitle('Hello, World! - mainwindow')
+window.setWindowIcon(QIcon('web.png'))
+
+
+btn = QPushButton('Quit', window)
+btn.move(50, 50)
+btn.resize(btn.sizeHint())
+btn.clicked.connect(QCoreApplication.instance().quit)
+
+
+window.show()
+
+sys.exit(app.exec_())
