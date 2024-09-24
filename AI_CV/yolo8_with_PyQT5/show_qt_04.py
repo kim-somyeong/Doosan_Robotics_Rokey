@@ -1,4 +1,4 @@
-import cv2
+import cv2                                        ##  추가
 import threading
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushButton, QMessageBox
@@ -7,7 +7,7 @@ from PyQt5 import QtGui
 running = False
 def run():
     global running
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(0)                     ##  추가 시작
     width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
     height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
     label.resize(int(width), int(height))
@@ -23,7 +23,7 @@ def run():
             QMessageBox.about(win, "Error", "Cannot read frame.")
             print("cannot read frame.")
             break
-    print("Thread end.")
+    print("Thread end.")                          ##  추가 끝
 
 def stop():
     global running

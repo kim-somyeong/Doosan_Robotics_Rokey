@@ -3,10 +3,10 @@ import threading
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushButton, QMessageBox
 from PyQt5 import QtGui
-from ultralytics import YOLO
+from ultralytics import YOLO          ##  추가
 
 # Load the YOLOv8 model
-model = YOLO('yolov8n.pt')
+model = YOLO('yolov8n.pt')            ##  추가
 
 running = False
 
@@ -19,11 +19,11 @@ def run():
     while running:
         ret, img = cap.read()
         if ret:
-            results = model(img)
-            annotated_frame = results[0].plot()
-            annotated_frame = cv2.cvtColor(annotated_frame, cv2.COLOR_BGR2RGB)
-            h,w,c = annotated_frame.shape
-            qImg = QtGui.QImage(annotated_frame.data, w, h, w*c, QtGui.QImage.Format_RGB888)
+            results = model(img)                                                              ##  추가
+            annotated_frame = results[0].plot()                                               ##  추가
+            annotated_frame = cv2.cvtColor(annotated_frame, cv2.COLOR_BGR2RGB)                ##  추가
+            h,w,c = annotated_frame.shape                                                     ##  수정
+            qImg = QtGui.QImage(annotated_frame.data, w, h, w*c, QtGui.QImage.Format_RGB888)  ##  수정
             pixmap = QtGui.QPixmap.fromImage(qImg)
             label.setPixmap(pixmap)
         else:
