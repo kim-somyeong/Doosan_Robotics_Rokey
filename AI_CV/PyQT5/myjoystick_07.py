@@ -8,9 +8,9 @@ import math
 class MyJoystick(QWidget):
 	def __init__(self, cbJoyPos=None, parent=None): # 조이스틱 초기화 함수
 		super(MyJoystick, self).__init__(parent)
-		self.setMinimumSize(200, 200)
+		self.setMinimumSize(200, 200)				#창의 최소 크기를 (200,200)
 		self.movingOffset = QPointF(0, 0)
-		self.grabCenter = False
+		self.grabCenter = False						#center에 있지 않을 경우 False
 		self.__maxDistance = 50
 
 		#timer setting
@@ -19,7 +19,7 @@ class MyJoystick(QWidget):
 		self.timer.timeout.connect(self.timeout)	#timer.timeout을 timeout이라는 method에 connect
 		self.timer.start()
 
-		self.cbJoyPos = cbJoyPos
+		self.cbJoyPos = cbJoyPos	#함수명을 등록 (함수 포인터)
 
 	def paintEvent(self, event): # 조이스틱을 그리는 함수
 		painter = QPainter(self)

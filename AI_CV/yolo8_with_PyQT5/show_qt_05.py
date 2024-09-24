@@ -20,8 +20,8 @@ def run():
         ret, img = cap.read()
         if ret:
             results = model(img)                                                              ##  추가
-            annotated_frame = results[0].plot()                                               ##  추가
-            annotated_frame = cv2.cvtColor(annotated_frame, cv2.COLOR_BGR2RGB)                ##  추가
+            annotated_frame = results[0].plot()                                               ##  추가          #plot : bouding box가 그려진 image 생성
+            annotated_frame = cv2.cvtColor(annotated_frame, cv2.COLOR_BGR2RGB)                ##  추가          #annoated_frame : img(BGR) -> annoated_frame(BGR) -> annoated_frame(RGB) -> QT용 img => QImage
             h,w,c = annotated_frame.shape                                                     ##  수정
             qImg = QtGui.QImage(annotated_frame.data, w, h, w*c, QtGui.QImage.Format_RGB888)  ##  수정
             pixmap = QtGui.QPixmap.fromImage(qImg)

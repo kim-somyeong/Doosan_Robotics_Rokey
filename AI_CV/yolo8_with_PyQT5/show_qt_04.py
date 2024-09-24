@@ -10,7 +10,7 @@ def run():
     cap = cv2.VideoCapture(0)                     ##  추가 시작
     width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
     height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
-    label.resize(int(width), int(height))
+    label.resize(int(width), int(height))           #(640, 480)만큼 resize
     while running:
         ret, img = cap.read()
         if ret:
@@ -18,7 +18,7 @@ def run():
             h,w,c = img.shape
             qImg = QtGui.QImage(img.data, w, h, w*c, QtGui.QImage.Format_RGB888)
             pixmap = QtGui.QPixmap.fromImage(qImg)
-            label.setPixmap(pixmap)
+            label.setPixmap(pixmap)         #해당되는 pixel값 pixmap을 넣어준다.
         else:
             QMessageBox.about(win, "Error", "Cannot read frame.")
             print("cannot read frame.")
@@ -44,12 +44,12 @@ def onExit():
 app = QApplication([])
 win = QWidget()
 vbox = QVBoxLayout()
-label = QLabel()
+label = QLabel()                        #QT에 image를 출력할 수 있는 공간 => Qlabel
 btn_start = QPushButton("Camera On")
 btn_stop = QPushButton("Camera Off")
 
 
-vbox.addWidget(label)
+vbox.addWidget(label)       #button보다 위에 있어야 함. 
 vbox.addWidget(btn_start)
 vbox.addWidget(btn_stop)
 win.setLayout(vbox)
