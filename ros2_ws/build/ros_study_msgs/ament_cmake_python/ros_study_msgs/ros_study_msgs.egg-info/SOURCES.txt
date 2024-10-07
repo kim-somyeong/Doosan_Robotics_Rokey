@@ -1,0 +1,6 @@
+setup.py
+ros_study_msgs/__init__.py
+ros_study_msgs.egg-info/PKG-INFO
+ros_study_msgs.egg-info/SOURCES.txt
+ros_study_msgs.egg-info/dependency_links.txt
+ros_study_msgs.egg-info/top_level.txt
