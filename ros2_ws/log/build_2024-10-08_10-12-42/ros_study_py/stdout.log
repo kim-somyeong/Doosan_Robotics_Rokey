@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/ros_study_py/ros_study_py.egg-info
+writing ../../build/ros_study_py/ros_study_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros_study_py/ros_study_py.egg-info/dependency_links.txt
+writing entry points to ../../build/ros_study_py/ros_study_py.egg-info/entry_points.txt
+writing requirements to ../../build/ros_study_py/ros_study_py.egg-info/requires.txt
+writing top-level names to ../../build/ros_study_py/ros_study_py.egg-info/top_level.txt
+writing manifest file '../../build/ros_study_py/ros_study_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros_study_py/ros_study_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros_study_py/ros_study_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+copying ros_study_py/my_msg_test.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+copying ros_study_py/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+running install
+running install_lib
+creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py
+copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/build/lib/ros_study_py/my_msg_test.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py
+copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/build/lib/ros_study_py/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py
+byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_msg_test.py to my_msg_test.cpython-310.pyc
+byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/share/ament_index/resource_index/packages
+copying resource/ros_study_py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/share/ros_study_py
+running install_egg_info
+Copying ../../build/ros_study_py/ros_study_py.egg-info to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_msg_test script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/ros_study_py
+writing list of installed files to '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/install.log'

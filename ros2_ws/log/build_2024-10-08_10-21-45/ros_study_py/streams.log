@@ -1,0 +1,29 @@
+[0.404s] Invoking command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ros_study_py': AMENT_PREFIX_PATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs LD_LIBRARY_PATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_study_py build --build-base /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/build install --record /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/install.log --single-version-externally-managed install_data
+[0.487s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.487s]   warnings.warn(msg)
+[0.549s] running egg_info
+[0.557s] writing ../../build/ros_study_py/ros_study_py.egg-info/PKG-INFO
+[0.558s] writing dependency_links to ../../build/ros_study_py/ros_study_py.egg-info/dependency_links.txt
+[0.558s] writing entry points to ../../build/ros_study_py/ros_study_py.egg-info/entry_points.txt
+[0.558s] writing requirements to ../../build/ros_study_py/ros_study_py.egg-info/requires.txt
+[0.558s] writing top-level names to ../../build/ros_study_py/ros_study_py.egg-info/top_level.txt
+[0.575s] reading manifest file '../../build/ros_study_py/ros_study_py.egg-info/SOURCES.txt'
+[0.576s] writing manifest file '../../build/ros_study_py/ros_study_py.egg-info/SOURCES.txt'
+[0.576s] running build
+[0.576s] running build_py
+[0.576s] copying ros_study_py/my_msg_test.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+[0.576s] copying ros_study_py/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/build/lib/ros_study_py
+[0.576s] running install
+[0.578s] running install_lib
+[0.587s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/build/lib/ros_study_py/my_msg_test.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py
+[0.587s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py/my_msg_test.py to my_msg_test.cpython-310.pyc
+[0.587s] running install_data
+[0.587s] copying resource/ros_study_py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/share/ament_index/resource_index/packages
+[0.588s] copying package.xml -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/share/ros_study_py
+[0.588s] running install_egg_info
+[0.597s] removing '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.597s] Copying ../../build/ros_study_py/ros_study_py.egg-info to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/python3.10/site-packages/ros_study_py-0.0.0-py3.10.egg-info
+[0.597s] running install_scripts
+[0.664s] Installing my_msg_test script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/ros_study_py
+[0.664s] writing list of installed files to '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/install.log'
+[0.678s] Invoked command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ros_study_py' returned '0': AMENT_PREFIX_PATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs LD_LIBRARY_PATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_py/lib/python3.10/site-packages:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_study_py build --build-base /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/build install --record /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_py/install.log --single-version-externally-managed install_data

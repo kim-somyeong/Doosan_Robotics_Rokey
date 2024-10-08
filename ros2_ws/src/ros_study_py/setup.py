@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "my_msg_test = ros_study_py.my_msg_test:main"
         ],
     },
 )
