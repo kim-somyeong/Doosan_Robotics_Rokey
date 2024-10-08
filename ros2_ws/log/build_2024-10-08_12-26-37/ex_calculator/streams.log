@@ -1,0 +1,72 @@
+[0.414s] Invoking command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ex_calculator': AMENT_PREFIX_PATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs LD_LIBRARY_PATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ex_calculator build --build-base /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build install --record /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/install.log --single-version-externally-managed install_data
+[0.503s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.503s]   warnings.warn(msg)
+[0.556s] running egg_info
+[0.556s] creating ../../build/ex_calculator/ex_calculator.egg-info
+[0.565s] writing ../../build/ex_calculator/ex_calculator.egg-info/PKG-INFO
+[0.565s] writing dependency_links to ../../build/ex_calculator/ex_calculator.egg-info/dependency_links.txt
+[0.565s] writing entry points to ../../build/ex_calculator/ex_calculator.egg-info/entry_points.txt
+[0.565s] writing requirements to ../../build/ex_calculator/ex_calculator.egg-info/requires.txt
+[0.565s] writing top-level names to ../../build/ex_calculator/ex_calculator.egg-info/top_level.txt
+[0.565s] writing manifest file '../../build/ex_calculator/ex_calculator.egg-info/SOURCES.txt'
+[0.583s] reading manifest file '../../build/ex_calculator/ex_calculator.egg-info/SOURCES.txt'
+[0.584s] writing manifest file '../../build/ex_calculator/ex_calculator.egg-info/SOURCES.txt'
+[0.584s] running build
+[0.584s] running build_py
+[0.584s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator
+[0.584s] copying ex_calculator/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator
+[0.584s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/arithmetic
+[0.584s] copying ex_calculator/arithmetic/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/arithmetic
+[0.585s] copying ex_calculator/arithmetic/operator.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/arithmetic
+[0.585s] copying ex_calculator/arithmetic/argument.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/arithmetic
+[0.585s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/calculator
+[0.585s] copying ex_calculator/calculator/main.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/calculator
+[0.585s] copying ex_calculator/calculator/calculator.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/calculator
+[0.585s] copying ex_calculator/calculator/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/calculator
+[0.585s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/checker
+[0.585s] copying ex_calculator/checker/main.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/checker
+[0.585s] copying ex_calculator/checker/checker.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/checker
+[0.585s] copying ex_calculator/checker/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/checker
+[0.586s] running install
+[0.589s] running install_lib
+[0.598s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator
+[0.598s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/arithmetic
+[0.598s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/arithmetic/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/arithmetic
+[0.598s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/arithmetic/operator.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/arithmetic
+[0.598s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/arithmetic/argument.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/arithmetic
+[0.598s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/calculator
+[0.599s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/calculator/main.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/calculator
+[0.599s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/calculator/calculator.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/calculator
+[0.599s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/calculator/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/calculator
+[0.599s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/checker
+[0.599s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/checker/main.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/checker
+[0.599s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/checker/checker.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/checker
+[0.599s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/checker/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/checker
+[0.599s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build/lib/ex_calculator/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator
+[0.599s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/arithmetic/__init__.py to __init__.cpython-310.pyc
+[0.599s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/arithmetic/operator.py to operator.cpython-310.pyc
+[0.600s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/arithmetic/argument.py to argument.cpython-310.pyc
+[0.600s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/calculator/main.py to main.cpython-310.pyc
+[0.600s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/calculator/calculator.py to calculator.cpython-310.pyc
+[0.601s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/calculator/__init__.py to __init__.cpython-310.pyc
+[0.601s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/checker/main.py to main.cpython-310.pyc
+[0.601s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/checker/checker.py to checker.cpython-310.pyc
+[0.602s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/checker/__init__.py to __init__.cpython-310.pyc
+[0.602s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator/__init__.py to __init__.cpython-310.pyc
+[0.602s] running install_data
+[0.602s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/share/ament_index/resource_index/packages
+[0.602s] copying resource/ex_calculator -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/share/ament_index/resource_index/packages
+[0.602s] copying package.xml -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/share/ex_calculator
+[0.602s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/share/ex_calculator/launch
+[0.602s] copying launch/arithmetic.launch.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/share/ex_calculator/launch
+[0.602s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/share/ex_calculator/param
+[0.603s] copying param/arithmetic_config.yaml -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/share/ex_calculator/param
+[0.603s] running install_egg_info
+[0.613s] Copying ../../build/ex_calculator/ex_calculator.egg-info to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator-0.0.0-py3.10.egg-info
+[0.613s] running install_scripts
+[0.684s] Installing argument script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/ex_calculator
+[0.684s] Installing calculator script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/ex_calculator
+[0.684s] Installing checker script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/ex_calculator
+[0.684s] Installing operator script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/ex_calculator
+[0.685s] writing list of installed files to '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/install.log'
+[0.700s] Invoked command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ex_calculator' returned '0': AMENT_PREFIX_PATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs LD_LIBRARY_PATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros_study_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ex_calculator build --build-base /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build install --record /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/install.log --single-version-externally-managed install_data

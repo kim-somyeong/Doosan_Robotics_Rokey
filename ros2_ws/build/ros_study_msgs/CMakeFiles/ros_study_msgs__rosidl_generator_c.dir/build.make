@@ -83,8 +83,11 @@ rosidl_generator_c/ros_study_msgs/msg/my_msg.h: /opt/ros/humble/share/rosidl_gen
 rosidl_generator_c/ros_study_msgs/msg/my_msg.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/ros_study_msgs/msg/my_msg.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/ros_study_msgs/msg/my_msg.h: rosidl_adapter/ros_study_msgs/msg/MyMsg.idl
+rosidl_generator_c/ros_study_msgs/msg/my_msg.h: rosidl_adapter/ros_study_msgs/msg/ArithmeticArgument.idl
 rosidl_generator_c/ros_study_msgs/msg/my_msg.h: rosidl_adapter/ros_study_msgs/srv/MySrv.idl
+rosidl_generator_c/ros_study_msgs/msg/my_msg.h: rosidl_adapter/ros_study_msgs/srv/ArithmeticOperator.idl
 rosidl_generator_c/ros_study_msgs/msg/my_msg.h: rosidl_adapter/ros_study_msgs/action/MyAction.idl
+rosidl_generator_c/ros_study_msgs/msg/my_msg.h: rosidl_adapter/ros_study_msgs/action/ArithmeticChecker.idl
 rosidl_generator_c/ros_study_msgs/msg/my_msg.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/ros_study_msgs/msg/my_msg.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_c/ros_study_msgs/msg/my_msg.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
@@ -104,6 +107,18 @@ rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__struct.h: rosidl_generator_
 rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__type_support.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__type_support.h
 
+rosidl_generator_c/ros_study_msgs/msg/arithmetic_argument.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/msg/arithmetic_argument.h
+
+rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.h
+
+rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__struct.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__struct.h
+
+rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__type_support.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__type_support.h
+
 rosidl_generator_c/ros_study_msgs/srv/my_srv.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/srv/my_srv.h
 
@@ -115,6 +130,18 @@ rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__struct.h: rosidl_generator_
 
 rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__type_support.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__type_support.h
+
+rosidl_generator_c/ros_study_msgs/srv/arithmetic_operator.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/srv/arithmetic_operator.h
+
+rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.h
+
+rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__struct.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__struct.h
+
+rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__type_support.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__type_support.h
 
 rosidl_generator_c/ros_study_msgs/action/my_action.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/action/my_action.h
@@ -128,14 +155,35 @@ rosidl_generator_c/ros_study_msgs/action/detail/my_action__struct.h: rosidl_gene
 rosidl_generator_c/ros_study_msgs/action/detail/my_action__type_support.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/action/detail/my_action__type_support.h
 
+rosidl_generator_c/ros_study_msgs/action/arithmetic_checker.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/action/arithmetic_checker.h
+
+rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.h
+
+rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__struct.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__struct.h
+
+rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__type_support.h: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__type_support.h
+
 rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c
+
+rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c
 
 rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c
 
+rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c
+
 rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c
+
+rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c
 
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c.o: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c.o: rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c
@@ -151,10 +199,24 @@ CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c -o CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c.s
 
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.o: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.o: rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.o: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.o -MF CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.o.d -o CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.o -c /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c
+
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c > CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.i
+
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c -o CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.s
+
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.o: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.o: rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.o: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.o -MF CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.o.d -o CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.o -c /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c
 
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.i: cmake_force
@@ -165,10 +227,24 @@ CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c -o CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.s
 
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.o: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.o: rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.o: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.o -MF CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.o.d -o CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.o -c /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c
+
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c > CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.i
+
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c -o CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.s
+
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/flags.make
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o: rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o -MF CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o.d -o CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o -c /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c
 
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.i: cmake_force
@@ -179,18 +255,38 @@ CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c -o CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.s
 
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.o: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/flags.make
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.o: rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.o: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.o -MF CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.o.d -o CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.o -c /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c
+
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c > CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.i
+
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c -o CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.s
+
 # Object files for target ros_study_msgs__rosidl_generator_c
 ros_study_msgs__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c.o" \
+"CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.o" \
 "CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.o" \
-"CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o"
+"CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.o" \
+"CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o" \
+"CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.o"
 
 # External object files for target ros_study_msgs__rosidl_generator_c
 ros_study_msgs__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libros_study_msgs__rosidl_generator_c.so: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c.o
+libros_study_msgs__rosidl_generator_c.so: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c.o
 libros_study_msgs__rosidl_generator_c.so: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c.o
+libros_study_msgs__rosidl_generator_c.so: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c.o
 libros_study_msgs__rosidl_generator_c.so: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c.o
+libros_study_msgs__rosidl_generator_c.so: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c.o
 libros_study_msgs__rosidl_generator_c.so: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/build.make
 libros_study_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 libros_study_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
@@ -198,7 +294,7 @@ libros_study_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfa
 libros_study_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libros_study_msgs__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libros_study_msgs__rosidl_generator_c.so: CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libros_study_msgs__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C shared library libros_study_msgs__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -209,16 +305,31 @@ CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/clean
 
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/action/arithmetic_checker.h
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.c
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__functions.h
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__struct.h
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/action/detail/arithmetic_checker__type_support.h
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.c
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/action/detail/my_action__functions.h
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/action/detail/my_action__struct.h
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/action/detail/my_action__type_support.h
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/action/my_action.h
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/msg/arithmetic_argument.h
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.c
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__functions.h
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__struct.h
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/msg/detail/arithmetic_argument__type_support.h
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.c
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__functions.h
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__struct.h
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/msg/detail/my_msg__type_support.h
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/msg/my_msg.h
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/srv/arithmetic_operator.h
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.c
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__functions.h
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__struct.h
+CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/srv/detail/arithmetic_operator__type_support.h
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.c
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__functions.h
 CMakeFiles/ros_study_msgs__rosidl_generator_c.dir/depend: rosidl_generator_c/ros_study_msgs/srv/detail/my_srv__struct.h

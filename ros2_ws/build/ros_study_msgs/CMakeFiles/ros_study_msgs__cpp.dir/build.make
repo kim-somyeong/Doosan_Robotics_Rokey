@@ -70,14 +70,26 @@ CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.h
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/detail/my_msg__builder.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/detail/my_msg__struct.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/detail/my_msg__traits.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/arithmetic_argument.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/detail/arithmetic_argument__builder.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/detail/arithmetic_argument__struct.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/detail/arithmetic_argument__traits.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/my_srv.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/detail/my_srv__builder.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/detail/my_srv__struct.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/detail/my_srv__traits.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/arithmetic_operator.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/detail/arithmetic_operator__builder.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/detail/arithmetic_operator__struct.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/detail/arithmetic_operator__traits.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/my_action.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__builder.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__struct.hpp
 CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__traits.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/arithmetic_checker.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__builder.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__struct.hpp
+CMakeFiles/ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__traits.hpp
 
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -95,8 +107,11 @@ rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: /opt/ros/humble/share/rosidl
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: rosidl_adapter/ros_study_msgs/msg/MyMsg.idl
+rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: rosidl_adapter/ros_study_msgs/msg/ArithmeticArgument.idl
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: rosidl_adapter/ros_study_msgs/srv/MySrv.idl
+rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: rosidl_adapter/ros_study_msgs/srv/ArithmeticOperator.idl
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: rosidl_adapter/ros_study_msgs/action/MyAction.idl
+rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: rosidl_adapter/ros_study_msgs/action/ArithmeticChecker.idl
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
@@ -116,6 +131,18 @@ rosidl_generator_cpp/ros_study_msgs/msg/detail/my_msg__struct.hpp: rosidl_genera
 rosidl_generator_cpp/ros_study_msgs/msg/detail/my_msg__traits.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/msg/detail/my_msg__traits.hpp
 
+rosidl_generator_cpp/ros_study_msgs/msg/arithmetic_argument.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/msg/arithmetic_argument.hpp
+
+rosidl_generator_cpp/ros_study_msgs/msg/detail/arithmetic_argument__builder.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/msg/detail/arithmetic_argument__builder.hpp
+
+rosidl_generator_cpp/ros_study_msgs/msg/detail/arithmetic_argument__struct.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/msg/detail/arithmetic_argument__struct.hpp
+
+rosidl_generator_cpp/ros_study_msgs/msg/detail/arithmetic_argument__traits.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/msg/detail/arithmetic_argument__traits.hpp
+
 rosidl_generator_cpp/ros_study_msgs/srv/my_srv.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/srv/my_srv.hpp
 
@@ -127,6 +154,18 @@ rosidl_generator_cpp/ros_study_msgs/srv/detail/my_srv__struct.hpp: rosidl_genera
 
 rosidl_generator_cpp/ros_study_msgs/srv/detail/my_srv__traits.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/srv/detail/my_srv__traits.hpp
+
+rosidl_generator_cpp/ros_study_msgs/srv/arithmetic_operator.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/srv/arithmetic_operator.hpp
+
+rosidl_generator_cpp/ros_study_msgs/srv/detail/arithmetic_operator__builder.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/srv/detail/arithmetic_operator__builder.hpp
+
+rosidl_generator_cpp/ros_study_msgs/srv/detail/arithmetic_operator__struct.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/srv/detail/arithmetic_operator__struct.hpp
+
+rosidl_generator_cpp/ros_study_msgs/srv/detail/arithmetic_operator__traits.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/srv/detail/arithmetic_operator__traits.hpp
 
 rosidl_generator_cpp/ros_study_msgs/action/my_action.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/my_action.hpp
@@ -140,15 +179,39 @@ rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__struct.hpp: rosidl_
 rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__traits.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__traits.hpp
 
+rosidl_generator_cpp/ros_study_msgs/action/arithmetic_checker.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/arithmetic_checker.hpp
+
+rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__builder.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__builder.hpp
+
+rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__struct.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__struct.hpp
+
+rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__traits.hpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__traits.hpp
+
 ros_study_msgs__cpp: CMakeFiles/ros_study_msgs__cpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/arithmetic_checker.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__builder.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__struct.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/arithmetic_checker__traits.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__builder.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__struct.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/detail/my_action__traits.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/action/my_action.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/arithmetic_argument.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/detail/arithmetic_argument__builder.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/detail/arithmetic_argument__struct.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/detail/arithmetic_argument__traits.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/detail/my_msg__builder.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/detail/my_msg__struct.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/detail/my_msg__traits.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/msg/my_msg.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/arithmetic_operator.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/detail/arithmetic_operator__builder.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/detail/arithmetic_operator__struct.hpp
+ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/detail/arithmetic_operator__traits.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/detail/my_srv__builder.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/detail/my_srv__struct.hpp
 ros_study_msgs__cpp: rosidl_generator_cpp/ros_study_msgs/srv/detail/my_srv__traits.hpp

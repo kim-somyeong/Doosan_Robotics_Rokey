@@ -360,7 +360,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/msg" TYPE FILE FILES "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/msg/ArithmeticArgument.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/srv" TYPE FILE FILES "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/srv/MySrv.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/srv" TYPE FILE FILES "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/srv/ArithmeticOperator.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -368,7 +376,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/action" TYPE FILE FILES "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/action/ArithmeticChecker.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/msg" TYPE FILE FILES "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ros_study_msgs/msg/MyMsg.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/msg" TYPE FILE FILES "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ros_study_msgs/msg/ArithmeticArgument.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -384,7 +400,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/srv" TYPE FILE FILES "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ros_study_msgs/srv/ArithmeticOperator.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/srv" TYPE FILE FILES "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_cmake/srv/ArithmeticOperator_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/srv" TYPE FILE FILES "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_cmake/srv/ArithmeticOperator_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/action" TYPE FILE FILES "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ros_study_msgs/action/MyAction.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_study_msgs/action" TYPE FILE FILES "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ros_study_msgs/action/ArithmeticChecker.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

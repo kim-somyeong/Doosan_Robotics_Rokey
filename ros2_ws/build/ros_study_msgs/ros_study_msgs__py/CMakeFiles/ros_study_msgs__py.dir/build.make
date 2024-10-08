@@ -70,14 +70,20 @@ ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_
 ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_introspection_c.c
 ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_c.c
 ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/msg/_my_msg.py
+ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/msg/_arithmetic_argument.py
 ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/srv/_my_srv.py
+ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/srv/_arithmetic_operator.py
 ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/action/_my_action.py
+ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/action/_arithmetic_checker.py
 ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/msg/__init__.py
 ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/srv/__init__.py
 ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/action/__init__.py
 ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/msg/_my_msg_s.c
+ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/msg/_arithmetic_argument_s.c
 ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/srv/_my_srv_s.c
+ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/srv/_arithmetic_operator_s.c
 ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/action/_my_action_s.c
+ros_study_msgs__py/CMakeFiles/ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/action/_arithmetic_checker_s.c
 
 rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -93,8 +99,11 @@ rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ros_study_msgs/msg/MyMsg.idl
+rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ros_study_msgs/msg/ArithmeticArgument.idl
 rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ros_study_msgs/srv/MySrv.idl
+rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ros_study_msgs/srv/ArithmeticOperator.idl
 rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ros_study_msgs/action/MyAction.idl
+rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/ros_study_msgs/action/ArithmeticChecker.idl
 rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
@@ -114,11 +123,20 @@ rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_c.c: 
 rosidl_generator_py/ros_study_msgs/msg/_my_msg.py: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/msg/_my_msg.py
 
+rosidl_generator_py/ros_study_msgs/msg/_arithmetic_argument.py: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/msg/_arithmetic_argument.py
+
 rosidl_generator_py/ros_study_msgs/srv/_my_srv.py: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/srv/_my_srv.py
 
+rosidl_generator_py/ros_study_msgs/srv/_arithmetic_operator.py: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/srv/_arithmetic_operator.py
+
 rosidl_generator_py/ros_study_msgs/action/_my_action.py: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/action/_my_action.py
+
+rosidl_generator_py/ros_study_msgs/action/_arithmetic_checker.py: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/action/_arithmetic_checker.py
 
 rosidl_generator_py/ros_study_msgs/msg/__init__.py: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/msg/__init__.py
@@ -132,23 +150,38 @@ rosidl_generator_py/ros_study_msgs/action/__init__.py: rosidl_generator_py/ros_s
 rosidl_generator_py/ros_study_msgs/msg/_my_msg_s.c: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/msg/_my_msg_s.c
 
+rosidl_generator_py/ros_study_msgs/msg/_arithmetic_argument_s.c: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/msg/_arithmetic_argument_s.c
+
 rosidl_generator_py/ros_study_msgs/srv/_my_srv_s.c: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/srv/_my_srv_s.c
 
+rosidl_generator_py/ros_study_msgs/srv/_arithmetic_operator_s.c: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/srv/_arithmetic_operator_s.c
+
 rosidl_generator_py/ros_study_msgs/action/_my_action_s.c: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/action/_my_action_s.c
+
+rosidl_generator_py/ros_study_msgs/action/_arithmetic_checker_s.c: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/ros_study_msgs/action/_arithmetic_checker_s.c
 
 ros_study_msgs__py: ros_study_msgs__py/CMakeFiles/ros_study_msgs__py
 ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_c.c
 ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/_ros_study_msgs_s.ep.rosidl_typesupport_introspection_c.c
 ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/action/__init__.py
+ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/action/_arithmetic_checker.py
+ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/action/_arithmetic_checker_s.c
 ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/action/_my_action.py
 ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/action/_my_action_s.c
 ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/msg/__init__.py
+ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/msg/_arithmetic_argument.py
+ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/msg/_arithmetic_argument_s.c
 ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/msg/_my_msg.py
 ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/msg/_my_msg_s.c
 ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/srv/__init__.py
+ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/srv/_arithmetic_operator.py
+ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/srv/_arithmetic_operator_s.c
 ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/srv/_my_srv.py
 ros_study_msgs__py: rosidl_generator_py/ros_study_msgs/srv/_my_srv_s.c
 ros_study_msgs__py: ros_study_msgs__py/CMakeFiles/ros_study_msgs__py.dir/build.make

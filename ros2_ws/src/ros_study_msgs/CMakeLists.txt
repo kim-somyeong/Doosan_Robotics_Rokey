@@ -15,14 +15,17 @@ find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
   "msg/MyMsg.msg"
+  "msg/ArithmeticArgument.msg"
 )
 
 set(srv_files
   "srv/MySrv.srv"
+  "srv/ArithmeticOperator.srv"
 )
 
 set(action_files
   "action/MyAction.action"
+  "action/ArithmeticChecker.action"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

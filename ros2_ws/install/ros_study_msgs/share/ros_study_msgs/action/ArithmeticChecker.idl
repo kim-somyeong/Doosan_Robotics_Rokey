@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ros_study_msgs/action/ArithmeticChecker.action
+// generated code does not contain a copyright notice
+
+
+module ros_study_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct ArithmeticChecker_Goal {
+      float goal_sum;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct ArithmeticChecker_Result {
+      sequence<string> all_formula;
+
+      float total_sum;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct ArithmeticChecker_Feedback {
+      sequence<string> formula;
+    };
+  };
+};

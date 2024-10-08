@@ -4,8 +4,11 @@
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
     "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:msg/MyMsg.idl",
+    "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:msg/ArithmeticArgument.idl",
     "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:srv/MySrv.idl",
-    "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:action/MyAction.idl"
+    "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:srv/ArithmeticOperator.idl",
+    "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:action/MyAction.idl",
+    "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs:action/ArithmeticChecker.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -26,8 +29,11 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
     "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/msg/MyMsg.idl",
+    "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/msg/ArithmeticArgument.idl",
     "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/srv/MySrv.idl",
+    "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/srv/ArithmeticOperator.idl",
     "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/action/MyAction.idl",
+    "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_adapter/ros_study_msgs/action/ArithmeticChecker.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",

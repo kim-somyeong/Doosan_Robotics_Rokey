@@ -1,7 +1,15 @@
+action/ArithmeticChecker.action
+action/ArithmeticChecker.idl
 action/MyAction.action
 action/MyAction.idl
+msg/ArithmeticArgument.idl
+msg/ArithmeticArgument.msg
 msg/MyMsg.idl
 msg/MyMsg.msg
+srv/ArithmeticOperator.idl
+srv/ArithmeticOperator.srv
+srv/ArithmeticOperator_Request.msg
+srv/ArithmeticOperator_Response.msg
 srv/MySrv.idl
 srv/MySrv.srv
 srv/MySrv_Request.msg

@@ -1,0 +1,26 @@
+[0.492s] Invoking command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ex_calculator': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ex_calculator build --build-base /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build install --record /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/install.log --single-version-externally-managed install_data
+[0.595s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.595s]   warnings.warn(msg)
+[0.658s] running egg_info
+[0.668s] writing ../../build/ex_calculator/ex_calculator.egg-info/PKG-INFO
+[0.668s] writing dependency_links to ../../build/ex_calculator/ex_calculator.egg-info/dependency_links.txt
+[0.668s] writing entry points to ../../build/ex_calculator/ex_calculator.egg-info/entry_points.txt
+[0.669s] writing requirements to ../../build/ex_calculator/ex_calculator.egg-info/requires.txt
+[0.669s] writing top-level names to ../../build/ex_calculator/ex_calculator.egg-info/top_level.txt
+[0.690s] reading manifest file '../../build/ex_calculator/ex_calculator.egg-info/SOURCES.txt'
+[0.691s] writing manifest file '../../build/ex_calculator/ex_calculator.egg-info/SOURCES.txt'
+[0.691s] running build
+[0.691s] running build_py
+[0.692s] running install
+[0.695s] running install_lib
+[0.706s] running install_data
+[0.707s] running install_egg_info
+[0.718s] removing '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator-0.0.0-py3.10.egg-info' (and everything under it)
+[0.718s] Copying ../../build/ex_calculator/ex_calculator.egg-info to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages/ex_calculator-0.0.0-py3.10.egg-info
+[0.718s] running install_scripts
+[0.796s] Installing argument script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/ex_calculator
+[0.796s] Installing calculator script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/ex_calculator
+[0.796s] Installing checker script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/ex_calculator
+[0.796s] Installing operator script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/ex_calculator
+[0.796s] writing list of installed files to '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/install.log'
+[0.813s] Invoked command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ex_calculator' returned '0': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ex_calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ex_calculator build --build-base /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/build install --record /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ex_calculator/install.log --single-version-externally-managed install_data
