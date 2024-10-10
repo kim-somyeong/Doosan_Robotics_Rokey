@@ -14,7 +14,7 @@
 
 import random
 
-from ros_study_msgs.srv import ArithmeticOperator
+from ros_study_msgs.srv import ArithmeticOperator       #ros_study_msgs -> srv의 내용을 사용할 것이다
 import rclpy
 from rclpy.node import Node
 
@@ -26,9 +26,9 @@ class Operator(Node):
 
         self.arithmetic_service_client = self.create_client(
             ArithmeticOperator,
-            'arithmetic_operator')
+            'arithmetic_operator')  #서비스명 지정
 
-        while not self.arithmetic_service_client.wait_for_service(timeout_sec=0.1):
+        while not self.arithmetic_service_client.wait_for_service(timeout_sec=0.1): #서비스를 시작할 때마다 0.1초씩 대기
             self.get_logger().warning('The arithmetic_operator service not available.')
 
     def send_request(self):
@@ -46,10 +46,10 @@ def main(args=None):
     try:
         while rclpy.ok():
             if user_trigger is True:
-                rclpy.spin_once(operator)
-                if future.done():
+                rclpy.spin_once(operator)       #한 번만 실행된다 -> spin_once
+                if future.done():   #진행이 되었다면
                     try:
-                        service_response = future.result()
+                        service_response = future.result()      #response를 받는다
                     except Exception as e:  # noqa: B902
                         operator.get_logger().warn('Service call failed: {}'.format(str(e)))
                     else:
@@ -57,8 +57,8 @@ def main(args=None):
                             'Result: {}'.format(service_response.arithmetic_result))
                         user_trigger = False
             else:
-                input('Press Enter for next service call.')
-                future = operator.send_request()
+                input('Press Enter for next service call.') #어떠한 동작이 있으면 
+                future = operator.send_request()            #그 때 send를 할 수 있게
                 user_trigger = True
 
     except KeyboardInterrupt:

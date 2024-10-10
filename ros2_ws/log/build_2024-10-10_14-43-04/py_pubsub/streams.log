@@ -1,0 +1,35 @@
+[0.543s] Invoking command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/build --no-deps symlink_data --force
+[0.635s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.635s]   warnings.warn(msg)
+[0.729s] running develop
+[0.729s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.729s] !!
+[0.729s] 
+[0.729s]         ********************************************************************************
+[0.729s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.729s]         Instead, use pypa/build, pypa/installer or other
+[0.729s]         standards-based tools.
+[0.729s] 
+[0.729s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.730s]         ********************************************************************************
+[0.730s] 
+[0.730s] !!
+[0.730s]   easy_install.initialize_options(self)
+[0.852s] running egg_info
+[0.862s] writing py_pubsub.egg-info/PKG-INFO
+[0.862s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[0.862s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[0.863s] writing requirements to py_pubsub.egg-info/requires.txt
+[0.863s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[0.882s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.883s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[0.893s] running build_ext
+[0.893s] Creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[0.894s] Installing listener script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.894s] Installing talker script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.894s] 
+[0.894s] Installed /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub
+[0.894s] running symlink_data
+[0.894s] symbolically linking /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/resource/py_pubsub -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.895s] symbolically linking /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/package.xml -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.935s] Invoked command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/build --no-deps symlink_data --force

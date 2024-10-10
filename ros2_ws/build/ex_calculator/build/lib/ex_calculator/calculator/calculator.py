@@ -47,14 +47,14 @@ class Calculator(Node):
             depth=qos_depth,
             durability=QoSDurabilityPolicy.VOLATILE)
 
-        self.arithmetic_argument_subscriber = self.create_subscription(
-            ArithmeticArgument,
+        self.arithmetic_argument_subscriber = self.create_subscription(     #topic 정보 받기
+            ArithmeticArgument, 
             'arithmetic_argument',
             self.get_arithmetic_argument,
             QOS_RKL10V,
             callback_group=self.callback_group)
 
-        self.arithmetic_service_server = self.create_service(
+        self.arithmetic_service_server = self.create_service(           # service 동작 준비
             ArithmeticOperator,
             'arithmetic_operator',
             self.get_arithmetic_operator,
@@ -80,8 +80,8 @@ class Calculator(Node):
             self.argument_a,
             self.argument_b,
             self.argument_operator)
-        response.arithmetic_result = self.argument_result
-        self.argument_formula = '{0} {1} {2} = {3}'.format(
+        response.arithmetic_result = self.argument_result       #calculate 실행된 값을 넣어준다.
+        self.argument_formula = '{0} {1} {2} = {3}'.format(     #하나의 argument를 하나의 string으로 된 formula
                 self.argument_a,
                 self.operator[self.argument_operator-1],
                 self.argument_b,

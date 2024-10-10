@@ -1,0 +1,18 @@
+running develop
+running egg_info
+creating my_package1212.egg-info
+writing my_package1212.egg-info/PKG-INFO
+writing dependency_links to my_package1212.egg-info/dependency_links.txt
+writing requirements to my_package1212.egg-info/requires.txt
+writing top-level names to my_package1212.egg-info/top_level.txt
+writing manifest file 'my_package1212.egg-info/SOURCES.txt'
+reading manifest file 'my_package1212.egg-info/SOURCES.txt'
+writing manifest file 'my_package1212.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/my_package1212/lib/python3.10/site-packages/my-package1212.egg-link (link to .)
+
+Installed /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/my_package1212
+running symlink_data
+creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/my_package1212/share/ament_index/resource_index/packages
+symbolically linking /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/my_package1212/resource/my_package1212 -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/my_package1212/share/ament_index/resource_index/packages
+symbolically linking /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/my_package1212/package.xml -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/my_package1212/share/my_package1212

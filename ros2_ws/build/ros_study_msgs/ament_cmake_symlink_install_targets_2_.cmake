@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/rosidl_generator_py/ros_study_msgs/ros_study_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "ros_study_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ros_study_msgs")

@@ -1,0 +1,35 @@
+[0.544s] Invoking command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/my_package1212': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/my_package1212/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/my_package1212/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/my_package1212/build --no-deps symlink_data
+[0.636s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.636s]   warnings.warn(msg)
+[0.730s] running develop
+[0.730s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.730s] !!
+[0.730s] 
+[0.730s]         ********************************************************************************
+[0.730s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.730s]         Instead, use pypa/build, pypa/installer or other
+[0.730s]         standards-based tools.
+[0.730s] 
+[0.731s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.731s]         ********************************************************************************
+[0.731s] 
+[0.731s] !!
+[0.731s]   easy_install.initialize_options(self)
+[0.853s] running egg_info
+[0.853s] creating my_package1212.egg-info
+[0.862s] writing my_package1212.egg-info/PKG-INFO
+[0.863s] writing dependency_links to my_package1212.egg-info/dependency_links.txt
+[0.863s] writing requirements to my_package1212.egg-info/requires.txt
+[0.863s] writing top-level names to my_package1212.egg-info/top_level.txt
+[0.863s] writing manifest file 'my_package1212.egg-info/SOURCES.txt'
+[0.882s] reading manifest file 'my_package1212.egg-info/SOURCES.txt'
+[0.883s] writing manifest file 'my_package1212.egg-info/SOURCES.txt'
+[0.893s] running build_ext
+[0.893s] Creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/my_package1212/lib/python3.10/site-packages/my-package1212.egg-link (link to .)
+[0.893s] 
+[0.894s] Installed /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/my_package1212
+[0.894s] running symlink_data
+[0.894s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/my_package1212/share/ament_index/resource_index/packages
+[0.894s] symbolically linking /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/my_package1212/resource/my_package1212 -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/my_package1212/share/ament_index/resource_index/packages
+[0.894s] symbolically linking /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/my_package1212/package.xml -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/my_package1212/share/my_package1212
+[0.917s] Invoked command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/my_package1212' returned '0': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/my_package1212/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/my_package1212/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/my_package1212/build --no-deps symlink_data
