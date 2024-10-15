@@ -8,9 +8,9 @@ def get_ros_env_list():
     ros_python_version = os.getenv('ROS_PYTHON_VERSION', 'None')    # ROS에서 사용하는 파이썬 버전
 
     # 가져온 변수들을 포맷팅하여 문자열로 반환
-    ros_env_list = 'ROS_VERSION         = {0}\n\
-ROS_DISTRO              = {1}\n\
-ROS_PYTHON_VERSION      = {2}\n'.format(ros_version, ros_distro, ros_python_version)
+    ros_env_list = 'ROS_VERSION       = {0}\n\
+ROS_DISTRO         = {1}\n\
+ROS_PYTHON_VERSION = {2}\n'.format(ros_version, ros_distro, ros_python_version)
     return ros_env_list
 
 
@@ -21,8 +21,8 @@ def get_dds_env_list():
     rmw_implementation = os.getenv('RMW_IMPLEMENTATION', 'None')    # DDS 미들웨어 구현
 
     # 가져온 변수들을 포맷팅하여 문자열로 반환
-    dds_env_list = 'ROS_DOMAIN_ID       = {0}\n\
-RMW_IMPLEMENTATION      = {1}\n'.format(ros_domain_id, rmw_implementation)
+    dds_env_list = 'ROS_DOMAIN_ID      = {0}\n\
+RMW_IMPLEMENTATION  = {1}\n'.format(ros_domain_id, rmw_implementation)
     return dds_env_list
 
 

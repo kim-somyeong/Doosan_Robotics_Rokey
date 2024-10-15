@@ -9,8 +9,8 @@ def get_ros_env_list():
 
     # 가져온 변수들을 포맷팅하여 문자열로 반환
     ros_env_list = 'ROS_VERSION         = {0}\n\
-ROS_DISTRO              = {1}\n\
-ROS_PYTHON_VERSION      = {2}\n'.format(ros_version, ros_distro, ros_python_version)
+ROS_DISTRO         = {1}\n\
+ROS_PYTHON_VERSION = {2}\n'.format(ros_version, ros_distro, ros_python_version)
     return ros_env_list
 
 
@@ -22,7 +22,7 @@ def get_dds_env_list():
 
     # 가져온 변수들을 포맷팅하여 문자열로 반환
     dds_env_list = 'ROS_DOMAIN_ID       = {0}\n\
-RMW_IMPLEMENTATION      = {1}\n'.format(ros_domain_id, rmw_implementation)
+RMW_IMPLEMENTATION   = {1}\n'.format(ros_domain_id, rmw_implementation)
     return dds_env_list
 
 
