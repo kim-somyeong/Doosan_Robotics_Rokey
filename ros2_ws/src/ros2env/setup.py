@@ -19,7 +19,15 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
+        'ros2cli.command': [
+            'env = ros2env.command.env:EnvCommand',
+        ],
+        'ros2cli.extension_point' : [
+            'ros2env.verb = ros2env.verb:VerbExtension',
+        ],
+        'ros2env.verb' : [
+            'list = ros2env.verb.list:ListVerb',
+            'set = ros2env.verb.set:SetVerb',
         ],
     },
 )

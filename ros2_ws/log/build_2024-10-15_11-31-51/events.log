@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000219] (-) JobUnselected: {'identifier': 'ex_calculator'}
+[0.000322] (-) JobUnselected: {'identifier': 'my_package1212'}
+[0.000366] (-) JobUnselected: {'identifier': 'my_ros_pkg'}
+[0.000392] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000485] (-) JobUnselected: {'identifier': 'ros2env'}
+[0.000503] (-) JobUnselected: {'identifier': 'ros_study_msgs'}
+[0.000520] (-) JobUnselected: {'identifier': 'ros_study_py'}
+[0.000537] (-) EventReactorShutdown: {}

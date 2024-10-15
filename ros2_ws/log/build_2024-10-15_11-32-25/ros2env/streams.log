@@ -1,0 +1,55 @@
+[0.442s] Invoking command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ros2env': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2env build --build-base /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build install --record /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/install.log --single-version-externally-managed install_data
+[0.531s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.531s]   warnings.warn(msg)
+[0.583s] running egg_info
+[0.584s] creating ../../build/ros2env/ros2env.egg-info
+[0.591s] writing ../../build/ros2env/ros2env.egg-info/PKG-INFO
+[0.592s] writing dependency_links to ../../build/ros2env/ros2env.egg-info/dependency_links.txt
+[0.592s] writing entry points to ../../build/ros2env/ros2env.egg-info/entry_points.txt
+[0.592s] writing requirements to ../../build/ros2env/ros2env.egg-info/requires.txt
+[0.592s] writing top-level names to ../../build/ros2env/ros2env.egg-info/top_level.txt
+[0.592s] writing manifest file '../../build/ros2env/ros2env.egg-info/SOURCES.txt'
+[0.610s] reading manifest file '../../build/ros2env/ros2env.egg-info/SOURCES.txt'
+[0.611s] writing manifest file '../../build/ros2env/ros2env.egg-info/SOURCES.txt'
+[0.611s] running build
+[0.611s] running build_py
+[0.611s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env
+[0.611s] copying ros2env/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env
+[0.611s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/api
+[0.611s] copying ros2env/api/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/api
+[0.611s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/command
+[0.611s] copying ros2env/command/env.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/command
+[0.611s] copying ros2env/command/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/command
+[0.611s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/verb
+[0.612s] copying ros2env/verb/set.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/verb
+[0.612s] copying ros2env/verb/list.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/verb
+[0.612s] copying ros2env/verb/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/verb
+[0.612s] running install
+[0.615s] running install_lib
+[0.624s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env
+[0.624s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/api
+[0.624s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/api/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/api
+[0.624s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/command
+[0.624s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/command/env.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/command
+[0.625s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/command/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/command
+[0.625s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env
+[0.625s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/verb
+[0.625s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/verb/set.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/verb
+[0.625s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/verb/list.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/verb
+[0.625s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build/lib/ros2env/verb/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/verb
+[0.626s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/api/__init__.py to __init__.cpython-310.pyc
+[0.626s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/command/env.py to env.cpython-310.pyc
+[0.626s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/command/__init__.py to __init__.cpython-310.pyc
+[0.626s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/__init__.py to __init__.cpython-310.pyc
+[0.626s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/verb/set.py to set.cpython-310.pyc
+[0.627s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/verb/list.py to list.cpython-310.pyc
+[0.627s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env/verb/__init__.py to __init__.cpython-310.pyc
+[0.627s] running install_data
+[0.627s] creating /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/share/ament_index/resource_index/packages
+[0.627s] copying resource/ros2env -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/share/ament_index/resource_index/packages
+[0.627s] copying package.xml -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/share/ros2env
+[0.627s] running install_egg_info
+[0.637s] Copying ../../build/ros2env/ros2env.egg-info to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages/ros2env-0.0.0-py3.10.egg-info
+[0.637s] running install_scripts
+[0.710s] writing list of installed files to '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/install.log'
+[0.727s] Invoked command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/ros2env' returned '0': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/ros2env/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2env build --build-base /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/build install --record /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros2env/install.log --single-version-externally-managed install_data
