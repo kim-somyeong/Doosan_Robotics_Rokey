@@ -1,0 +1,8 @@
+{
+  "package_name": "hangman_interfaces",
+  "non_idl_tuples": [
+    "/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/hangman_interfaces:msg/Progress.msg",
+    "/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/hangman_interfaces:srv/CheckLetter.srv",
+    "/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/hangman_interfaces:action/GameProgress.action"
+  ]
+}

@@ -1,0 +1,27 @@
+[0.402s] Invoking command in '/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/hangman_game': AMENT_PREFIX_PATH=/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_interfaces LD_LIBRARY_PATH=/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/build/hangman_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_game/lib/python3.10/site-packages:/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/hangman_game build --build-base /home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/build/hangman_game/build install --record /home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/build/hangman_game/install.log --single-version-externally-managed install_data
+[0.510s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.510s]   warnings.warn(msg)
+[0.561s] running egg_info
+[0.571s] writing ../build/hangman_game/hangman_game.egg-info/PKG-INFO
+[0.571s] writing dependency_links to ../build/hangman_game/hangman_game.egg-info/dependency_links.txt
+[0.571s] writing entry points to ../build/hangman_game/hangman_game.egg-info/entry_points.txt
+[0.571s] writing requirements to ../build/hangman_game/hangman_game.egg-info/requires.txt
+[0.571s] writing top-level names to ../build/hangman_game/hangman_game.egg-info/top_level.txt
+[0.589s] reading manifest file '../build/hangman_game/hangman_game.egg-info/SOURCES.txt'
+[0.590s] writing manifest file '../build/hangman_game/hangman_game.egg-info/SOURCES.txt'
+[0.590s] running build
+[0.590s] running build_py
+[0.591s] running install
+[0.593s] running install_lib
+[0.603s] running install_data
+[0.603s] running install_egg_info
+[0.612s] removing '/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_game/lib/python3.10/site-packages/hangman_game-0.0.0-py3.10.egg-info' (and everything under it)
+[0.612s] Copying ../build/hangman_game/hangman_game.egg-info to /home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_game/lib/python3.10/site-packages/hangman_game-0.0.0-py3.10.egg-info
+[0.612s] running install_scripts
+[0.678s] Installing letter_publisher script to /home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_game/lib/hangman_game
+[0.678s] Installing progress_action_client script to /home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_game/lib/hangman_game
+[0.679s] Installing progress_action_server script to /home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_game/lib/hangman_game
+[0.679s] Installing user_input script to /home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_game/lib/hangman_game
+[0.679s] Installing word_service script to /home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_game/lib/hangman_game
+[0.680s] writing list of installed files to '/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/build/hangman_game/install.log'
+[0.699s] Invoked command in '/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/hangman_game' returned '0': AMENT_PREFIX_PATH=/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_interfaces LD_LIBRARY_PATH=/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/build/hangman_game/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_game/lib/python3.10/site-packages:/home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/install/hangman_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/hangman_game build --build-base /home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/build/hangman_game/build install --record /home/somyeong/Doosan_Robotics_Rokey/ROS2/hangman_ws/build/hangman_game/install.log --single-version-externally-managed install_data
