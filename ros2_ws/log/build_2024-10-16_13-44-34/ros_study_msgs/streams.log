@@ -1,0 +1,12 @@
+[0.017s] Invoking command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs -- -j16 -l16
+[0.374s] [  1%] Built target ros_study_msgs__cpp
+[0.375s] [ 12%] Built target ros_study_msgs__rosidl_generator_c
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target ros_study_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.375s] [ 23%] Built target ros_study_msgs__rosidl_typesupport_cpp
+[0.375s] [ 35%] Built target ros_study_msgs__rosidl_typesupport_fastrtps_cpp
+[0.375s] failed to create symbolic link '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs/ament_cmake_python/ros_study_msgs/ros_study_msgs' because existing path cannot be removed: Is a directory
+[0.375s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ros_study_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ros_study_msgs] Error 1
+[0.375s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_ros_study_msgs.dir/all] Error 2
+[0.375s] gmake[1]: *** Waiting for unfinished jobs....
+[0.375s] gmake: *** [Makefile:146: all] Error 2
+[0.492s] Invoked command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/ros_study_msgs -- -j16 -l16

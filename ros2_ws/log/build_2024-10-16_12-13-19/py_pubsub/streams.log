@@ -1,0 +1,52 @@
+[0.430s] Invoking command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/build
+[0.515s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.515s]   warnings.warn(msg)
+[0.593s] running develop
+[0.602s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.602s] !!
+[0.602s] 
+[0.602s]         ********************************************************************************
+[0.602s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.602s]         Instead, use pypa/build, pypa/installer or other
+[0.602s]         standards-based tools.
+[0.602s] 
+[0.602s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.602s]         ********************************************************************************
+[0.602s] 
+[0.602s] !!
+[0.602s]   easy_install.initialize_options(self)
+[0.712s] Removing /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py-pubsub.egg-link (link to .)
+[0.732s] Invoked command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/build
+[0.733s] Invoking command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/py_pubsub': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/build install --record /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data --force
+[0.817s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.817s]   warnings.warn(msg)
+[0.865s] running egg_info
+[0.873s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.873s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.874s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.874s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.874s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.890s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.891s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.891s] running build
+[0.891s] running build_py
+[0.891s] copying py_pubsub/subscriber_member_function.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.892s] copying py_pubsub/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.892s] copying py_pubsub/publisher_member_function.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.892s] running install
+[0.894s] running install_lib
+[0.902s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.902s] copying /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.903s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.903s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.903s] running install_data
+[0.904s] copying resource/py_pubsub -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.904s] copying package.xml -> /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.904s] running install_egg_info
+[0.913s] removing '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.913s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.913s] running install_scripts
+[0.978s] Installing listener script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.978s] Installing talker script to /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.978s] writing list of installed files to '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/install.log'
+[0.992s] Invoked command in '/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/build install --record /home/somyeong/Doosan_Robotics_Rokey/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data --force

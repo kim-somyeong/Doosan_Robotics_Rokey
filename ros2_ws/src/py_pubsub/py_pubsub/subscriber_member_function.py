@@ -17,6 +17,18 @@ from rclpy.node import Node
 
 from std_msgs.msg import String
 
+from rclpy.qos import QoSDurabilityPolicy
+from rclpy.qos import QoSHistoryPolicy
+from rclpy.qos import QoSProfile
+from rclpy.qos import QoSReliabilityPolicy
+
+qos_profile = QoSProfile(
+    reliability=QoSReliabilityPolicy.RELIABLE,
+    history=QoSHistoryPolicy.KEEP_LAST,
+    depth=10,
+    durability=QoSDurabilityPolicy.VOLATILE
+
+)
 
 class MinimalSubscriber(Node):
 
@@ -26,7 +38,7 @@ class MinimalSubscriber(Node):
             String,
             'topic',
             self.listener_callback,
-            10)
+            qos_profile=qos_profile)
         self.subscription  # prevent unused variable warning
 
     def listener_callback(self, msg):
