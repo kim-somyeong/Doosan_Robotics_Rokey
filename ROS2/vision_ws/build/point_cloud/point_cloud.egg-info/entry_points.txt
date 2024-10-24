@@ -1,0 +1,3 @@
+[console_scripts]
+pcd_publisher_node = point_cloud.pcd_publisher.pcd_publisher_node:main
+pcd_subscriber_node = point_cloud.pcd_subscriber.pcd_subscriber_node:main

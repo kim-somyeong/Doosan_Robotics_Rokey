@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/point_cloud/point_cloud.egg-info
+writing ../../build/point_cloud/point_cloud.egg-info/PKG-INFO
+writing dependency_links to ../../build/point_cloud/point_cloud.egg-info/dependency_links.txt
+writing entry points to ../../build/point_cloud/point_cloud.egg-info/entry_points.txt
+writing requirements to ../../build/point_cloud/point_cloud.egg-info/requires.txt
+writing top-level names to ../../build/point_cloud/point_cloud.egg-info/top_level.txt
+writing manifest file '../../build/point_cloud/point_cloud.egg-info/SOURCES.txt'
+reading manifest file '../../build/point_cloud/point_cloud.egg-info/SOURCES.txt'
+writing manifest file '../../build/point_cloud/point_cloud.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud
+copying point_cloud/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud
+creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud/pcd_publisher
+copying point_cloud/pcd_publisher/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud/pcd_publisher
+copying point_cloud/pcd_publisher/pcd_publisher_node.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud/pcd_publisher
+creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud/pcd_subscriber
+copying point_cloud/pcd_subscriber/pcd_subscriber_node.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud/pcd_subscriber
+copying point_cloud/pcd_subscriber/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud/pcd_subscriber
+running install
+running install_lib
+creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud
+creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/pcd_publisher
+copying /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud/pcd_publisher/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/pcd_publisher
+copying /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud/pcd_publisher/pcd_publisher_node.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/pcd_publisher
+copying /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud
+creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/pcd_subscriber
+copying /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud/pcd_subscriber/pcd_subscriber_node.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/pcd_subscriber
+copying /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/build/lib/point_cloud/pcd_subscriber/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/pcd_subscriber
+byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/pcd_publisher/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/pcd_publisher/pcd_publisher_node.py to pcd_publisher_node.cpython-310.pyc
+byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/pcd_subscriber/pcd_subscriber_node.py to pcd_subscriber_node.cpython-310.pyc
+byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud/pcd_subscriber/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/share/ament_index/resource_index/packages
+copying resource/point_cloud -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/share/ament_index/resource_index/packages
+copying package.xml -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/share/point_cloud
+creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/share/point_cloud/launch
+copying launch/pcd_publisher_demo.launch.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/share/point_cloud/launch
+copying launch/pcd_pubsub_demo.launch.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/share/point_cloud/launch
+creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/share/point_cloud/config
+creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/share/point_cloud/resource
+copying resource/fragment.ply -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/share/point_cloud/resource
+running install_egg_info
+Copying ../../build/point_cloud/point_cloud.egg-info to /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/python3.10/site-packages/point_cloud-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pcd_publisher_node script to /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/point_cloud
+Installing pcd_subscriber_node script to /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/point_cloud/lib/point_cloud
+writing list of installed files to '/home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/point_cloud/install.log'
