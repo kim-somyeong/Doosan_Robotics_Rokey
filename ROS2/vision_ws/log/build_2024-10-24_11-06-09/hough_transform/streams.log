@@ -1,0 +1,39 @@
+[0.427s] Invoking command in '/home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/src/hough_transform': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hough_transform build --build-base /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/build install --record /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/install.log --single-version-externally-managed install_data
+[0.513s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.513s]   warnings.warn(msg)
+[0.565s] running egg_info
+[0.565s] creating ../../build/hough_transform/hough_transform.egg-info
+[0.573s] writing ../../build/hough_transform/hough_transform.egg-info/PKG-INFO
+[0.573s] writing dependency_links to ../../build/hough_transform/hough_transform.egg-info/dependency_links.txt
+[0.574s] writing entry points to ../../build/hough_transform/hough_transform.egg-info/entry_points.txt
+[0.574s] writing requirements to ../../build/hough_transform/hough_transform.egg-info/requires.txt
+[0.574s] writing top-level names to ../../build/hough_transform/hough_transform.egg-info/top_level.txt
+[0.574s] writing manifest file '../../build/hough_transform/hough_transform.egg-info/SOURCES.txt'
+[0.591s] reading manifest file '../../build/hough_transform/hough_transform.egg-info/SOURCES.txt'
+[0.592s] writing manifest file '../../build/hough_transform/hough_transform.egg-info/SOURCES.txt'
+[0.592s] running build
+[0.592s] running build_py
+[0.592s] creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/build/lib/hough_transform
+[0.592s] copying hough_transform/hough_transform.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/build/lib/hough_transform
+[0.592s] copying hough_transform/img_pub.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/build/lib/hough_transform
+[0.592s] copying hough_transform/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/build/lib/hough_transform
+[0.592s] running install
+[0.595s] running install_lib
+[0.604s] creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/lib/python3.10/site-packages/hough_transform
+[0.604s] copying /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/build/lib/hough_transform/hough_transform.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/lib/python3.10/site-packages/hough_transform
+[0.604s] copying /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/build/lib/hough_transform/img_pub.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/lib/python3.10/site-packages/hough_transform
+[0.604s] copying /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/build/lib/hough_transform/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/lib/python3.10/site-packages/hough_transform
+[0.604s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/lib/python3.10/site-packages/hough_transform/hough_transform.py to hough_transform.cpython-310.pyc
+[0.605s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/lib/python3.10/site-packages/hough_transform/img_pub.py to img_pub.cpython-310.pyc
+[0.605s] byte-compiling /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/lib/python3.10/site-packages/hough_transform/__init__.py to __init__.cpython-310.pyc
+[0.605s] running install_data
+[0.605s] creating /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/share/ament_index/resource_index/packages
+[0.605s] copying resource/hough_transform -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/share/ament_index/resource_index/packages
+[0.606s] copying package.xml -> /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/share/hough_transform
+[0.606s] running install_egg_info
+[0.615s] Copying ../../build/hough_transform/hough_transform.egg-info to /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/lib/python3.10/site-packages/hough_transform-0.0.0-py3.10.egg-info
+[0.615s] running install_scripts
+[0.684s] Installing hough_transform script to /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/lib/hough_transform
+[0.684s] Installing image_publisher script to /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/lib/hough_transform
+[0.684s] writing list of installed files to '/home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/install.log'
+[0.699s] Invoked command in '/home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/src/hough_transform' returned '0': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/install/hough_transform/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hough_transform build --build-base /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/build install --record /home/somyeong/Doosan_Robotics_Rokey/ROS2/vision_ws/build/hough_transform/install.log --single-version-externally-managed install_data

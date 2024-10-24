@@ -1,0 +1,3 @@
+[console_scripts]
+hough_transform = hough_transform.hough_transform:main
+image_publisher = hough_transform.img_pub:main
