@@ -1,0 +1,29 @@
+[0.420s] Invoking command in '/home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/turtlebot3_gui': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/build/turtlebot3_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/install/turtlebot3_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlebot3_gui build --build-base /home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/build/turtlebot3_gui/build install --record /home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/build/turtlebot3_gui/install.log --single-version-externally-managed install_data
+[0.508s] /home/somyeong/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[0.508s]   warnings.warn(msg)
+[0.568s] running egg_info
+[0.577s] writing ../build/turtlebot3_gui/turtlebot3_gui.egg-info/PKG-INFO
+[0.577s] writing dependency_links to ../build/turtlebot3_gui/turtlebot3_gui.egg-info/dependency_links.txt
+[0.577s] writing entry points to ../build/turtlebot3_gui/turtlebot3_gui.egg-info/entry_points.txt
+[0.578s] writing requirements to ../build/turtlebot3_gui/turtlebot3_gui.egg-info/requires.txt
+[0.578s] writing top-level names to ../build/turtlebot3_gui/turtlebot3_gui.egg-info/top_level.txt
+[0.596s] reading manifest file '../build/turtlebot3_gui/turtlebot3_gui.egg-info/SOURCES.txt'
+[0.597s] writing manifest file '../build/turtlebot3_gui/turtlebot3_gui.egg-info/SOURCES.txt'
+[0.597s] running build
+[0.597s] running build_py
+[0.598s] copying turtlebot3_gui/subscriber_member.py -> /home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/build/turtlebot3_gui/build/lib/turtlebot3_gui
+[0.598s] copying turtlebot3_gui/__init__.py -> /home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/build/turtlebot3_gui/build/lib/turtlebot3_gui
+[0.598s] copying turtlebot3_gui/publisher_member.py -> /home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/build/turtlebot3_gui/build/lib/turtlebot3_gui
+[0.598s] running install
+[0.601s] running install_lib
+[0.611s] running install_data
+[0.611s] copying resource/turtlebot3_gui -> /home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/install/turtlebot3_gui/share/ament_index/resource_index/packages
+[0.611s] copying package.xml -> /home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/install/turtlebot3_gui/share/turtlebot3_gui
+[0.612s] running install_egg_info
+[0.622s] removing '/home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/install/turtlebot3_gui/lib/python3.10/site-packages/turtlebot3_gui-0.0.0-py3.10.egg-info' (and everything under it)
+[0.622s] Copying ../build/turtlebot3_gui/turtlebot3_gui.egg-info to /home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/install/turtlebot3_gui/lib/python3.10/site-packages/turtlebot3_gui-0.0.0-py3.10.egg-info
+[0.622s] running install_scripts
+[0.696s] Installing publisher_member_function script to /home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[0.696s] Installing subscriber_member_function script to /home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/install/turtlebot3_gui/lib/turtlebot3_gui
+[0.696s] writing list of installed files to '/home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/build/turtlebot3_gui/install.log'
+[0.711s] Invoked command in '/home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/turtlebot3_gui' returned '0': PYTHONPATH=/home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/build/turtlebot3_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/install/turtlebot3_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtlebot3_gui build --build-base /home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/build/turtlebot3_gui/build install --record /home/somyeong/Doosan_Robotics_Rokey/[주행1]/project_ws/build/turtlebot3_gui/install.log --single-version-externally-managed install_data
