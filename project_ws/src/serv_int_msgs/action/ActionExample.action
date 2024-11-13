@@ -1,0 +1,12 @@
+# Goal
+float32 go
+
+---
+
+# Feedback
+string[] str
+
+---
+
+# Result
+float32 res

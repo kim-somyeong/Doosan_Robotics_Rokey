@@ -1,0 +1,10 @@
+# Goal
+string goal_description
+
+---
+# Result
+string result_description
+
+---
+# Feedback
+float32 progress

@@ -1,0 +1,10 @@
+# Request
+int32 table_num
+string menu_name
+float32 price
+int32 quantity
+
+---
+# Response
+float32 total_price
+string status  # status 필드를 추가

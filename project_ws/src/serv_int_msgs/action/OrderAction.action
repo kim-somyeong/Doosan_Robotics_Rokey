@@ -1,0 +1,14 @@
+# OrderAction.action
+# Goal
+string mission_name
+int32 priority
+string target_location  # 이 필드를 추가
+
+---
+# Result
+bool success
+string message
+
+---
+# Feedback
+float32 feedback
